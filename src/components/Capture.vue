@@ -72,6 +72,7 @@ watch(screenState, (state) => {
 onMounted(() => {
   screenState.value = ScreenState.Initializing;
 });
+console.log(data.capturedImageSrc)
 </script>
 
 <template>
